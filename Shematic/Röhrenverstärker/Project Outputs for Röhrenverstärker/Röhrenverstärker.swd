@@ -1,0 +1,305 @@
+Röhrenverstärker
+Date: Sun Nov 18 17:57:45 2018
+
+
+*OP sweep c1[capacitance], c2[capacitance] run 1 of 25 (p1)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  800m
+
+*OP sweep c1[capacitance], c2[capacitance] run 2 of 25 (p2)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  900m
+
+*OP sweep c1[capacitance], c2[capacitance] run 3 of 25 (p3)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1
+
+*OP sweep c1[capacitance], c2[capacitance] run 4 of 25 (p4)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1.1
+
+*OP sweep c1[capacitance], c2[capacitance] run 5 of 25 (p5)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1.2
+
+*OP sweep c1[capacitance], c2[capacitance] run 6 of 25 (p6)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  800m
+
+*OP sweep c1[capacitance], c2[capacitance] run 7 of 25 (p7)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  900m
+
+*OP sweep c1[capacitance], c2[capacitance] run 8 of 25 (p8)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1
+
+*OP sweep c1[capacitance], c2[capacitance] run 9 of 25 (p9)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1.1
+
+*OP sweep c1[capacitance], c2[capacitance] run 10 of 25 (p10)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1.2
+
+*OP sweep c1[capacitance], c2[capacitance] run 11 of 25 (p11)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  800m
+
+*OP sweep c1[capacitance], c2[capacitance] run 12 of 25 (p12)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  900m
+
+*OP sweep c1[capacitance], c2[capacitance] run 13 of 25 (p13)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1
+
+*OP sweep c1[capacitance], c2[capacitance] run 14 of 25 (p14)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1.1
+
+*OP sweep c1[capacitance], c2[capacitance] run 15 of 25 (p15)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1.2
+
+*OP sweep c1[capacitance], c2[capacitance] run 16 of 25 (p16)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  800m
+
+*OP sweep c1[capacitance], c2[capacitance] run 17 of 25 (p17)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  900m
+
+*OP sweep c1[capacitance], c2[capacitance] run 18 of 25 (p18)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1
+
+*OP sweep c1[capacitance], c2[capacitance] run 19 of 25 (p19)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1.1
+
+*OP sweep c1[capacitance], c2[capacitance] run 20 of 25 (p20)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1.2
+
+*OP sweep c1[capacitance], c2[capacitance] run 21 of 25 (p21)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  800m
+
+*OP sweep c1[capacitance], c2[capacitance] run 22 of 25 (p22)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  900m
+
+*OP sweep c1[capacitance], c2[capacitance] run 23 of 25 (p23)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1
+
+*OP sweep c1[capacitance], c2[capacitance] run 24 of 25 (p24)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1.1
+
+*OP sweep c1[capacitance], c2[capacitance] run 25 of 25 (p25)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1.2
+
+*AC sweep c1[capacitance], c2[capacitance] run 1 of 25 (p1)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  800m
+
+*AC sweep c1[capacitance], c2[capacitance] run 2 of 25 (p2)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  900m
+
+*AC sweep c1[capacitance], c2[capacitance] run 3 of 25 (p3)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1
+
+*AC sweep c1[capacitance], c2[capacitance] run 4 of 25 (p4)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1.1
+
+*AC sweep c1[capacitance], c2[capacitance] run 5 of 25 (p5)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1.2
+
+*AC sweep c1[capacitance], c2[capacitance] run 6 of 25 (p6)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  800m
+
+*AC sweep c1[capacitance], c2[capacitance] run 7 of 25 (p7)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  900m
+
+*AC sweep c1[capacitance], c2[capacitance] run 8 of 25 (p8)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1
+
+*AC sweep c1[capacitance], c2[capacitance] run 9 of 25 (p9)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1.1
+
+*AC sweep c1[capacitance], c2[capacitance] run 10 of 25 (p10)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1.2
+
+*AC sweep c1[capacitance], c2[capacitance] run 11 of 25 (p11)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  800m
+
+*AC sweep c1[capacitance], c2[capacitance] run 12 of 25 (p12)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  900m
+
+*AC sweep c1[capacitance], c2[capacitance] run 13 of 25 (p13)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1
+
+*AC sweep c1[capacitance], c2[capacitance] run 14 of 25 (p14)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1.1
+
+*AC sweep c1[capacitance], c2[capacitance] run 15 of 25 (p15)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1.2
+
+*AC sweep c1[capacitance], c2[capacitance] run 16 of 25 (p16)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  800m
+
+*AC sweep c1[capacitance], c2[capacitance] run 17 of 25 (p17)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  900m
+
+*AC sweep c1[capacitance], c2[capacitance] run 18 of 25 (p18)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1
+
+*AC sweep c1[capacitance], c2[capacitance] run 19 of 25 (p19)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1.1
+
+*AC sweep c1[capacitance], c2[capacitance] run 20 of 25 (p20)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1.2
+
+*AC sweep c1[capacitance], c2[capacitance] run 21 of 25 (p21)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  800m
+
+*AC sweep c1[capacitance], c2[capacitance] run 22 of 25 (p22)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  900m
+
+*AC sweep c1[capacitance], c2[capacitance] run 23 of 25 (p23)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1
+
+*AC sweep c1[capacitance], c2[capacitance] run 24 of 25 (p24)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1.1
+
+*AC sweep c1[capacitance], c2[capacitance] run 25 of 25 (p25)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1.2
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 1 of 25 (p1)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  800m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 2 of 25 (p2)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  900m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 3 of 25 (p3)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 4 of 25 (p4)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1.1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 5 of 25 (p5)
+c2[capacitance]  47u        ->  800m
+c1[capacitance]  47u        ->  1.2
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 6 of 25 (p6)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  800m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 7 of 25 (p7)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  900m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 8 of 25 (p8)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 9 of 25 (p9)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1.1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 10 of 25 (p10)
+c2[capacitance]  47u        ->  900m
+c1[capacitance]  47u        ->  1.2
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 11 of 25 (p11)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  800m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 12 of 25 (p12)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  900m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 13 of 25 (p13)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 14 of 25 (p14)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1.1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 15 of 25 (p15)
+c2[capacitance]  47u        ->  1
+c1[capacitance]  47u        ->  1.2
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 16 of 25 (p16)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  800m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 17 of 25 (p17)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  900m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 18 of 25 (p18)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 19 of 25 (p19)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1.1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 20 of 25 (p20)
+c2[capacitance]  47u        ->  1.1
+c1[capacitance]  47u        ->  1.2
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 21 of 25 (p21)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  800m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 22 of 25 (p22)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  900m
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 23 of 25 (p23)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 24 of 25 (p24)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1.1
+
+*TRAN sweep c1[capacitance], c2[capacitance] run 25 of 25 (p25)
+c2[capacitance]  47u        ->  1.2
+c1[capacitance]  47u        ->  1.2
+
+
