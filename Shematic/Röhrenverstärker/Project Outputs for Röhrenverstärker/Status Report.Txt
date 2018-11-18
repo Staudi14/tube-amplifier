@@ -1,0 +1,10 @@
+Output: Mixed Sim
+Type  : AdvSimNetlist
+From  : Project [Röhrenverstärker.PrjPcb]
+   Generated File[Röhrenverstärker.nsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:55:16 On 18/11/2018
