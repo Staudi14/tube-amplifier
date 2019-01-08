@@ -1,0 +1,20 @@
+[1218/093527:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[1218/093527:ERROR:devtools_http_handler.cc(229)] Cannot start http server for devtools. Stop devtools.
+[1218/093539:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[1218/093539:ERROR:devtools_http_handler.cc(229)] Cannot start http server for devtools. Stop devtools.
+[1218/125253:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/125253:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/125253:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/125254:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/125258:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/125258:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183828:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183829:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183830:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183833:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183834:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183835:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183836:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183838:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183839:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1218/183840:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.

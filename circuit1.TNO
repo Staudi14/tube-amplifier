@@ -1,0 +1,64 @@
+********************************************************************************
+***              Micro-Cap 11.0.3.4 (32 bit) Evaluation Version              ***
+***                               Windows User                               ***
+***                                   HTL                                    ***
+***                      Transient Analysis of circuit1                      ***
+***                           06.01.2019 14:53:43                            ***
+********************************************************************************
+Limits
+======
+Time Range               1u
+Maximum Time Step        0
+Number of Points         51
+Temperature              Linear 27
+Retrace Runs             1
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Operating Point Only     Off
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Fixed Time Step          Off
+Periodic Steady State    Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            40.900   2             3.678   3           -28.400  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3            R4
+V                   37.222        -3.678         3.678         0.000 
+Power DC Terms:
+PD                  76.971m       90.187u        7.516m        0.000 
+
+DC Pin Currents:
+Ir                   2.068m      -24.520u        2.043m        0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1            V2
+V                  40.900        28.400 
+Power DC Terms:
+PG                 84.577m        0.000 
+
+DC Pin Currents:
+ISource            -2.068m        0.000 
+
+
