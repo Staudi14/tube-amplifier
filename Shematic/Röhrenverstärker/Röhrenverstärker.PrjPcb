@@ -79,7 +79,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -114,7 +114,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -225,7 +225,7 @@ OutputDefault21=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -300,6 +300,8 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=Record=SimViewPrintView|PlotsPerPage=-1|PrintAllPlots=True|Cursor_AcRms=FName=Cursor_AcRms,FChecked=0,FEnabled=0|Cursor_Average=FName=Cursor_Average,FChecked=0,FEnabled=0|Cursor_BminusA=FName=Cursor_BminusA,FChecked=0,FEnabled=0|Cursor_Frequency=FName=Cursor_Frequency,FChecked=0,FEnabled=0|Cursor_Maximum=FName=Cursor_Maximum,FChecked=0,FEnabled=0|Cursor_Minimum=FName=Cursor_Minimum,FChecked=0,FEnabled=0|Cursor_RMS=FName=Cursor_RMS,FChecked=0,FEnabled=0|Cursor_XY=FName=Cursor_XY,FChecked=0,FEnabled=0|Cursor_SelectAll=FName=Cursor_SelectAll,FChecked=0,FEnabled=0|Cursor_AnOptionSelected=False|DocOptions_BoldWaves=FName=DocOptions_BoldWaves,FChecked=0,FEnabled=0|DocOptions_HighlightSimilar=FName=DocOptions_HighlightSimilar,FChecked=-1,FEnabled=0|DocOptions_ShowDataPoints=FName=DocOptions_ShowDataPoints,FChecked=0,FEnabled=0|DocOptions_ShowWaveSymbols=FName=DocOptions_ShowWaveSymbols,FChecked=0,FEnabled=0|DocOptions_ChartTitle=FName=DocOptions_ChartTitle,FChecked=-1,FEnabled=0|DocOptions_PlotTitle=FName=DocOptions_PlotTitle,FChecked=-1,FEnabled=0|DocOptions_AxisLabel=FName=DocOptions_AxisLabel,FChecked=-1,FEnabled=0|DocOptions_SelectAll=FName=DocOptions_SelectAll,FChecked=0,FEnabled=0|DocOptions_AnOptionSelected=False|Waveform_BaseLine=FName=Waveform_BaseLine,FChecked=0,FEnabled=0|Waveform_FallTime=FName=Waveform_FallTime,FChecked=0,FEnabled=0|Waveform_Maximum=FName=Waveform_Maximum,FChecked=0,FEnabled=0|Waveform_Minimum=FName=Waveform_Minimum,FChecked=0,FEnabled=0|Waveform_RiseTime=FName=Waveform_RiseTime,FChecked=0,FEnabled=0|Waveform_TopLine=FName=Waveform_TopLine,FChecked=0,FEnabled=0|Waveform_SelectAllMeasurements=FName=Waveform_SelectAllMeasurements,FChecked=0,FEnabled=0|WaveForm_WaveList= |PrintPlotList= |WaveForm_Count=0|WaveForm_AnOptionSelected=False|PageNumberStyle=nsPageNumber|PageNumberAlignment=vaCenter|PageNumberPlacement=vaFooter
 OutputType11=Wave Print
 OutputName11=Wave Prints
 OutputDocumentPath11=
@@ -316,7 +318,7 @@ PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -338,7 +340,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -410,7 +412,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -447,7 +449,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -627,7 +629,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -666,7 +668,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -717,7 +719,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP Officejet 4630 series (Network)
+TargetPrinter=HP3E9BAC (HP Officejet 4630 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
