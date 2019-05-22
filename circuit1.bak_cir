@@ -7,8 +7,8 @@ Shape Version=11.00
 Screen=1920,1080
 MCAPVersion=11.0.3.4
 Key ID=Demo
-NLCnt=38
-TXCnt=3
+NLCnt=42
+TXCnt=4
 
 [shapedef]
 Name=Capacitor
@@ -137,7 +137,7 @@ Line=0,0,8,0
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=6657
+Mask=6913
 Used=27
 memo=Capacitor
 Label Offset=16,12,12,12
@@ -297,16 +297,16 @@ V=UX1
 
 [Comp]
 Name=Capacitor
-Px=312,168
-Rot=1
+Px=336,216
+Rot=3
 
 [Attr]
-ON=12,12,PART
+ON=-29,-26,PART
 V=C2
 Style=8192
 
 [Attr]
-ON=12,26,CAPACITANCE
+ON=-36,-40,CAPACITANCE
 V=50u
 Style=8192
 
@@ -343,13 +343,13 @@ Pxs=224,184,224,216
 Pxs=224,216,264,216
 
 [Wire]
-Pxs=264,216,312,216
+Pxs=264,216,336,216
 
 [Wire]
 Pxs=176,216,224,216
 
 [Wire]
-Pxs=264,168,312,168
+Pxs=264,168,336,168
 
 [Comp]
 Name=Capacitor
@@ -394,9 +394,6 @@ Pxs=272,112,336,112
 
 [Wire]
 Pxs=272,8,472,8
-
-[Wire]
-Pxs=312,216,384,216
 
 [Comp]
 Name=Resistor
@@ -485,16 +482,13 @@ Name=PENTODE1
 Px=456,88
 
 [Attr]
-ON=25,34,PART
+ON=10,36,PART
 V=EL 84
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
-
-[Wire]
-Pxs=488,216,504,216
 
 [Wire]
 Pxs=464,216,488,216
@@ -510,7 +504,7 @@ Name=Transformer
 Px=472,24
 
 [Attr]
-ON=-74,31,PART
+ON=-75,32,PART
 V=Uebertrager
 Style=8192
 
@@ -538,7 +532,7 @@ V=R7
 Style=8192
 
 [Attr]
-ON=18,-34,RESISTANCE
+ON=15,8,RESISTANCE
 V=100
 Style=8192
 
@@ -560,6 +554,32 @@ Pxs=544,112,648,112
 
 [Wire]
 Pxs=464,168,488,168
+
+[Wire]
+Pxs=336,216,384,216
+
+[Wire]
+Pxs=520,24,552,24
+
+[Wire]
+Pxs=520,72,568,72
+
+[Wire]
+Pxs=568,64,568,72
+
+[Wire]
+Pxs=568,24,568,32
+
+[Wire]
+Pxs=552,24,568,24
+
+[Grid Text]
+Text="Ausgang"
+Px=552,24
+GridSnap=True
+JustifyH=Left
+JustifyV=Bottom
+CBorder=None
 
 [Grid Text]
 Text="280V DC In"
@@ -741,7 +761,7 @@ Scale 1=1
 Scale 2=1
 SB 3=118,0
 Scale 3=0.5
-Px=436,268
+Px=359,42
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000

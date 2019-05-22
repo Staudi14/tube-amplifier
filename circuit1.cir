@@ -1,14 +1,14 @@
 [Main]
 FileType=CIR
-Version=11.01
+Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
 Screen=1920,1080
-MCAPVersion=11.0.3.4
+MCAPVersion=12.0.2.1
 Key ID=Demo
 NLCnt=42
-TXCnt=4
+TXCnt=3
 
 [shapedef]
 Name=Capacitor
@@ -137,8 +137,8 @@ Line=0,0,8,0
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=6913
-Used=27
+Mask=7425
+Used=22
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -149,8 +149,8 @@ Pin="Minus",0,0,-14,-5
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=7169
-Used=143
+Mask=6913
+Used=148
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -162,7 +162,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=1793
-Used=205
+Used=257
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -173,7 +173,6 @@ Name=12AX7
 Definition=Subckt
 Shape=Triode
 Mask=4224
-Used=1
 memo=High-Mu Twin Triode - Duncan Munro
 Label Offset=43,-14,-5,41
 PinCnt=3
@@ -186,7 +185,7 @@ Name=PENTODE1
 Definition=NULL
 Shape=Pentode
 Mask=4224
-Used=4
+Used=3
 Label Offset=25,34,-8,28
 PinCnt=0
 
@@ -195,7 +194,6 @@ Name=Transformer
 Definition=Transformer
 Shape=Transformer
 Mask=4096
-Used=3
 memo=Transformer
 Label Offset=18,45,-1,12
 PinCnt=4
@@ -210,7 +208,10 @@ Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
 Default Object Apply Fill To Text=No
+Default Object GridSnap=No
 NodeVoltageFormat=3
+CurrentFormat=3
+PowerFormat=3
 PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
@@ -226,11 +227,11 @@ Show Pin Connections=False
 Show Connection Warnings=False
 Show Cross=False
 Show Attribute Text=True
-Show Grid Text=False
+Show Grid Text=True
 
 [Comp]
 Name=Capacitor
-Px=176,136
+Px=168,208
 
 [Attr]
 ON=16,12,PART
@@ -248,7 +249,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=224,136
+Px=216,208
 Rot=1
 
 [Attr]
@@ -267,12 +268,12 @@ V
 
 [Comp]
 Name=Ground
-Px=176,216
+Px=168,288
 Rot=7
 
 [Comp]
 Name=12AX7
-Px=248,136
+Px=240,208
 
 [Attr]
 ON=45,-6,PART
@@ -297,7 +298,7 @@ V=UX1
 
 [Comp]
 Name=Capacitor
-Px=336,216
+Px=328,288
 Rot=3
 
 [Attr]
@@ -316,7 +317,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=264,168
+Px=256,240
 Rot=1
 
 [Attr]
@@ -334,35 +335,35 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=224,136,248,136
+Pxs=216,208,240,208
 
 [Wire]
-Pxs=224,184,224,216
+Pxs=216,256,216,288
 
 [Wire]
-Pxs=224,216,264,216
+Pxs=216,288,256,288
 
 [Wire]
-Pxs=264,216,336,216
+Pxs=256,288,328,288
 
 [Wire]
-Pxs=176,216,224,216
+Pxs=168,288,216,288
 
 [Wire]
-Pxs=264,168,336,168
+Pxs=256,240,328,240
 
 [Comp]
 Name=Capacitor
-Px=384,112
+Px=344,184
 Rot=2
 
 [Attr]
-ON=-33,-26,PART
+ON=-27,-24,PART
 V=C3
 Style=8192
 
 [Attr]
-ON=-40,-40,CAPACITANCE
+ON=-30,-38,CAPACITANCE
 V=10n
 Style=8192
 
@@ -372,7 +373,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=272,64
+Px=264,136
 Rot=1
 
 [Attr]
@@ -390,14 +391,14 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=272,112,336,112
+Pxs=264,184,296,184
 
 [Wire]
-Pxs=272,8,472,8
+Pxs=264,80,464,80
 
 [Comp]
 Name=Resistor
-Px=384,168
+Px=392,240
 Rot=1
 
 [Attr]
@@ -415,11 +416,11 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=384,112,384,168
+Pxs=392,184,392,240
 
 [Comp]
 Name=Resistor
-Px=448,112
+Px=440,184
 Rot=2
 
 [Attr]
@@ -438,16 +439,16 @@ V
 
 [Comp]
 Name=Resistor
-Px=464,216
+Px=456,288
 Rot=3
 
 [Attr]
-ON=-24,-25,PART
+ON=-22,-27,PART
 V=R6
 Style=8192
 
 [Attr]
-ON=-32,-39,RESISTANCE
+ON=-29,-41,RESISTANCE
 V=135
 Style=8192
 
@@ -457,7 +458,7 @@ V
 
 [Comp]
 Name=Capacitor
-Px=488,168
+Px=480,240
 Rot=1
 
 [Attr]
@@ -475,11 +476,11 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=384,216,464,216
+Pxs=328,288,392,288
 
 [Comp]
 Name=PENTODE1
-Px=456,88
+Px=448,160
 
 [Attr]
 ON=10,36,PART
@@ -491,20 +492,20 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=464,216,488,216
+Pxs=456,288,480,288
 
 [Wire]
-Pxs=384,112,400,112
+Pxs=344,184,392,184
 
 [Wire]
-Pxs=464,136,464,168
+Pxs=456,208,456,240
 
 [Comp]
 Name=Transformer
-Px=472,24
+Px=464,96
 
 [Attr]
-ON=-75,32,PART
+ON=-70,5,PART
 V=Uebertrager
 Style=8192
 
@@ -513,17 +514,17 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=472,72,472,88
+Pxs=464,144,464,160
 
 [Wire]
-Pxs=272,8,272,64
+Pxs=264,80,264,136
 
 [Wire]
-Pxs=232,64,272,64
+Pxs=224,136,264,136
 
 [Comp]
 Name=Resistor
-Px=496,112
+Px=488,184
 Rot=4
 
 [Attr]
@@ -541,49 +542,41 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=472,8,472,24
+Pxs=464,80,464,96
 
 [Wire]
-Pxs=472,8,648,8
+Pxs=464,80,640,80
 
 [Wire]
-Pxs=648,8,648,112
+Pxs=640,80,640,184
 
 [Wire]
-Pxs=544,112,648,112
+Pxs=536,184,640,184
 
 [Wire]
-Pxs=464,168,488,168
+Pxs=456,240,480,240
 
 [Wire]
-Pxs=336,216,384,216
+Pxs=512,96,560,96
 
 [Wire]
-Pxs=520,24,552,24
+Pxs=512,144,560,144
 
 [Wire]
-Pxs=520,72,568,72
+Pxs=560,136,560,144
 
 [Wire]
-Pxs=568,64,568,72
+Pxs=560,96,560,104
 
 [Wire]
-Pxs=568,24,568,32
+Pxs=392,288,456,288
 
 [Wire]
-Pxs=552,24,568,24
-
-[Grid Text]
-Text="Ausgang"
-Px=552,24
-GridSnap=True
-JustifyH=Left
-JustifyV=Bottom
-CBorder=None
+Pxs=296,184,304,184
 
 [Grid Text]
 Text="280V DC In"
-Px=224,48
+Px=192,128
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -591,15 +584,15 @@ CBorder=None
 
 [Grid Text]
 Text="5,2k Eingang"
-Px=400,48
+Px=392,128
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
 CBorder=None
 
 [Grid Text]
-Text="8-Ohm Ausgan"
-Px=520,48
+Text="8-Ohm Ausgang"
+Px=536,128
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -613,7 +606,7 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=0.5
+Scale=0.66666666666666663
 GridUser=10
 ShapeGroups="Main","Euro","Polarity","Main1","Main11","Electrolytic","GroundArrow","DeMorgan"
 CalcRMS=False
@@ -630,27 +623,64 @@ BOM=No
 FILEPCB=No
 PROBE=Yes
 SELECT=Yes
+PAN=Yes
 COMP=Yes
 TEXT=Yes
 WIRE=Yes
 WIRED=Yes
 BUS=Yes
 GRAPHIC=Yes
+FLOWCHART=Yes
 LINE=No
 ELLIPSE=No
 RECT=No
 DIAM=No
 ARC=No
 PIE=No
+TRIANGLE=No
+STAR=No
 LEFTBRK=No
 RIGHTBRK=No
 BOTHBRK=No
 META=Yes
+PARALLELOGRAM=No
+FC_PROCESS=No
+FC_ALT_PROCESS=No
+FC_DECISION=No
+FC_DATA=No
+FC_PREDEFPROCESS=No
+FC_INTERNALSTORAGE=No
+FC_DOCUMENT=No
+FC_MULTIDOCUMENT=No
+FC_TERMINATOR=No
+FC_PREPARATION=No
+FC_MANUALINPUT=No
+FC_MANUALOPERATION=No
+FC_CONNECTOR=No
+FC_OFFPAGECONNECTOR=No
+FC_PUNCHCARD=No
+FC_PUNCHEDTAPE=No
+FC_SUMMING_JUNCTION=No
+FC_OR=No
+FC_COLLATE=No
+FC_SORT=No
+FC_EXTRACT=No
+FC_MERGE=No
+FC_STORED_DATA=No
+FC_DELAY=No
+FC_SAS=No
+FC_MAGNETIC_DISK=No
+FC_DAS=No
+FC_DISPLAY=No
+SPREAD_SHEET=Yes
+POLYCLOS=No
+POLYOPEN=No
 FLAG=Yes
 INFO=Yes
 HELP=Yes
 HELP_SPICE=No
 LINK=Yes
+CHECK=Yes
 REGION_ENABLE=Yes
 TITLE_BLOCK=Yes
 DIGTRC=No
@@ -691,6 +721,7 @@ CIR2CKT=Yes
 ATTDISP=Yes
 ENABLE=Yes
 DISABLE=Yes
+ENABLE_WITH=Yes
 TOFRONT=Yes
 TOBACK=Yes
 SELNEXT=Yes
@@ -705,6 +736,7 @@ GOTOFLAG=Yes
 UPLEVEL=Yes
 COLOR=Yes
 FONT=Yes
+STYLE=Yes
 DM_LAST=No
 DM_RMS=No
 DM_AVG=No
@@ -730,9 +762,12 @@ TEXTINC=No
 TOGGLETEXT=No
 TOGGLEMODE=No
 TOLERANCE=No
+ALIGNAB=No
 ALIGNLEFT=Yes
+ALIGNCENTER=Yes
 ALIGNRIGHT=Yes
 ALIGNTOP=Yes
+ALIGNMIDDLES=Yes
 ALIGNBOTTOM=Yes
 
 [Section]
@@ -759,9 +794,8 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=118,0
-Scale 3=0.5
-Px=359,42
+Scale 3=0.66666666666666663
+Px=481,346
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -773,6 +807,9 @@ Grid Text GridSnap=True
 Grid Text PinIt=False
 Grid Text JustifyH=Left
 Grid Text JustifyV=Bottom
+Grid GradientColor2=None
+Grid OutlineThickness=1
+Grid OutlineColor=None
 Component Color=#0000FF
 Attribute Text=Height=-12,FStyle=0,Color=#008000,Name=Verdana
 Wire Color=#008000
@@ -864,6 +901,9 @@ Measure=True
 MacroSubckt=True
 NotUsed=True
 ComponentCounts=True
+VariablizePaths=False
+DontShowPaths=False
+SimulationLog=True
 
 [Transient]
 WinID=1
@@ -951,6 +991,7 @@ Num Out Write Zero Models=True
 Num Out Write Undefined Models=True
 Num Out Write Operating Point=True
 Num Out Write Measurement Values=True
+Num Out Write Tolerance Detail=True
 Num Out Write Values=True
 Num Out Write Waveform Header=True
 Num Out Allow Dup Y Expr=False
@@ -959,6 +1000,7 @@ Num Out High="TMAX"
 Num Out Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Num Out Format=3
 Num Out HideNonSelected=False
+Num Out UseActualDataPoints=False
 AutoSaveWave=False
 Wave Format=16E
 State Variables Format=5E
@@ -967,6 +1009,7 @@ Print Individual Pages=False
 [Tools]
 Pos=Top
 SELECT=Yes
+PAN=Yes
 GRAPHIC=Yes
 LINE=No
 ELLIPSE=No
@@ -974,11 +1017,15 @@ RECT=No
 DIAM=No
 ARC=No
 PIE=No
+TRIANGLE=No
+STAR=No
 LEFTBRK=No
 RIGHTBRK=No
 BOTHBRK=No
 META=Yes
+PARALLELOGRAM=No
 POLYCLOS=No
+POLYOPEN=No
 SCALE=Yes
 CURSOR=Yes
 MEASUREH=Yes
@@ -1029,6 +1076,7 @@ AUTOSCALE=Yes
 RESTORESCALE=No
 COLOR=Yes
 FONT=Yes
+STYLE=Yes
 SELNEXT=Yes
 NORMALIZE=No
 NORMALIZE_MIN=No
@@ -1057,6 +1105,7 @@ ENVELOPE=No
 SAMEYSCALES=No
 KEEPXSCALESTHESAME=No
 CURVEFIT=No
+ADD_MARKER=No
 SHOWWATCH=No
 BP=No
 TOGGLEMODE=No
@@ -1064,8 +1113,10 @@ REMOVEALLTEXT=No
 AUTOSCALEX=No
 LABELALLMINOR=No
 ALIGNLEFT=Yes
+ALIGNCENTER=Yes
 ALIGNRIGHT=Yes
 ALIGNTOP=Yes
+ALIGNMIDDLES=Yes
 ALIGNBOTTOM=Yes
 
 [Monte Carlo Options]
@@ -1181,6 +1232,14 @@ ExprPercentWidth=80
 Var Width=100
 Nominal Width=72
 Tol Width=152
+Tol Name=Drift
+Col Width Neq=50
+Col Width Pos=50
+Col Width Rnd=50
+
+[WCFiles]
+UseFile=<Library>Standard.tlib
+AVAILABLE_FILE=<Library>Standard.tlib
 
 [OPMethods]
 Analysis=Transient
